@@ -1,0 +1,22 @@
+--01.08-- :
+
+- > Avem o firma, care are nume, adresa (oras, cod postal, strada si numar) si o lista de clienti. Fiecare client, are varsta, nume si adresa (oras, cod postal, strada si numar).
+
+- > Firma doreste o modalitate sa isi poate printa pe consola, toti clientii care sunt peste 30 de ani.
+
+
+
+- > Dupa trebuie sa se creeze o firma cu 5 clienti. Firma si clientii trebuie sa aiba datele diferite! 2 Client trebuie sa aiba sub 30 de ani.
+
+- > Dupa trebuie creat serviciul si chemata metoda printCustomersUnderAge30.
+
+
+--02.08-- :
+
+- > refactoriyare de cod: sa creeam o interfata client service si cu implementarea ei;
+- > metoda actuala din company service sa o muti in cea de sus;
+- > sa se creeze o metoda in client service care sa ia ca paramentru un string si sa printeze toti clienti care incep cu stringul respectiv;
+    ca sa putem avea unrezultat relevant, a trebuit sa aducem cele 2 stringuri la acelasea valoare, asa am fol toLowerCase();
+- >
+- >
+- >
